@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,26 +10,28 @@
 
 
 </head>
-<body>
+<header>
     <nav>
-        <a href="" class="logo"> Maria Paula Morales.</a>
+        <img id="logo" src="./logo-removebg-preview.png" alt="logo">
         <ul class="menu">
-            <li><a href=".presentacion">Inicio</a></li>
             <li><a href="#adm">Acerca de mi</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="">Contacto</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
+</header>
+
+<body>
+
 
     <section class="presentacion">
         <div class="pre-text">
             <h2>Mucho gusto, Maria Paula Morales</h2>
             <p>Desarrolladora web junior full stack/Java </p>
-            <p>Todavía no se que poner aquí</p>
             <div class="pre-btn">
-                <a href="#" class="btn"> Información de contacto</a>
-                <a href="#" class="btn"> Descarga CV </a>
+                <a href="#contacto" class="btn"> Información de contacto</a>
+                <a href="assets/Template CV-Maria Paula (4).pdf" class="btn" target="_blank"> Descarga CV </a>
             </div>
         </div>
         <div class="foto">
@@ -37,43 +40,93 @@
     </section>
 
     <div class="iconos">
-        <a href="#"><i class='bx bxl-linkedin'></i></a>
-        <a href="#"><i class='bx bxl-github'></i></a>
+        <a href="https://github.com/Mariapaulamt13" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="https://www.linkedin.com/in/maria-paula-morales/" target="_blank"><i class='bx bxl-linkedin'></i></a>
     </div>
-     
-    <h3 id="adm"> Acerca de mí </h3>
-    <p id="adm-text"> Desarrolladora Web Full Stack Java y Comunicadora Social–Periodista con experiencia en manejo de 
-        redes sociales, producción y edición de material audiovisual, creación de parrillas de contenido, 
-        ejecución de campañas publicitarias y organización de eventos. Actualmente, me desempeño como 
-        desarrolladora web junior con habilidades en desarrollo Full Stack con Java, combinando creatividad y 
-        tecnología para ofrecer soluciones digitales innovadoras. Destaco mi comunicación asertiva, mi 
-        resolución de conflictos, organización y mi interes por el aprendizaje continuo, aplicando mis 
-        conocimientos tanto en el ámbito digital como en el desarrollo web para potenciar estrategias y 
-        experiencias en línea.</p>
-    
-    
-    <h4> Habilidades </h4>
-    <section>
-        <div id="habilidades">
-             
-            <div class="foto2">
-                <img src="./code-1076536_640.jpg" alt="">
-            </div>
 
-            <ul class="habilidades">
-                <il> HTML </il>
-                <il> CSS </il>
-                <il> JavaScript </il>
-                <il> Java </il>
-                <il> Canva </il>
-                <il> Capcut </il>
-            </ul>   
+    <h3 id="adm"> Acerca de mí </h3>
+    <p id="adm-text"> Desarrolladora Web Full Stack Java y Comunicadora Social–Periodista con experiencia en manejo de
+        redes sociales, producción y edición de material audiovisual, creación de parrillas de contenido,
+        ejecución de campañas publicitarias y organización de eventos. Actualmente, me desempeño como
+        desarrolladora web junior con habilidades en desarrollo Full Stack con Java, combinando creatividad y
+        tecnología para ofrecer soluciones digitales innovadoras. Destaco mi comunicación asertiva, mi
+        resolución de conflictos, organización y mi interes por el aprendizaje continuo, aplicando mis
+        conocimientos tanto en el ámbito digital como en el desarrollo web para potenciar estrategias y
+        experiencias en línea.</p>
+
+
+    <h3> Habilidades </h3>
+    <section class="cards-section">
+        <div class="card">
+            <div class="icon">📚</div>
+            <h2>Diseño</h2>
+            <h4>Herramientas de diseño:</h4>
+            <p>Canva, Adobe, Capcut</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">💻</div>
+            <h2>Desarrollo frontend</h2>
+            <h4>Idiomas que hablo:</h4>
+            <p>HTML, CSS, JavaScript </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">📄</div>
+            <h2>Desarrollo backend</h2>
+            <h4>Idiomas que hablo:</h4>
+            <p>Java, SQL, SpringBoot </p>
+        </div>
+
+    </section>
+
+
+    <section>
+        <h3>Proyectos</h3>
+        <div id="proyectos">
+
+            <div class="card1">
+                <img src="./LogosAgroshop.png" alt="Imagen del curso" class="card-img">
+                <div class="card-body">
+                    <span class="badge">Ver más</span>
+                    <h2 class="title">AgroShop</h2>
+                    <p class="description">
+                        Este es un proyecto colaborativo y nacío con la necesidad de suplir la falta de conectividad
+                        entre los campesinos y sus posibles compradores.
+                    </p>
+                </div>
+            </div>
+            <div class="card1">
+                <img src="./Image20250422101841.png" alt="Imagen del curso" class="card-img">
+                <div class="card-body">
+                    <span class="badge">Ver más</span>
+                    <h2 class="title">Voltix</h2>
+                    <p class="description">
+                        Esta es una tienda deportiva que nacío de un ejercicio de Hackaton.
+                    </p>
+                </div>
+            </div>
+            <div class="card1">
+                <img src="./code-1076536_640.jpg" alt="Imagen del curso" class="card-img">
+                <div class="card-body">
+                    <span class="badge">Ver más</span>
+                    <h2 class="title">To Do List</h2>
+                    <p class="description">
+                        Este proyecto fue creado como un ejercicio práctico para organizar las tareas del día a día.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <div id="proyectos">
-        <h5> Proyectos </h5>
-    </div>
-    
+    <!-- <section>
+        <h3>Contacto</h3>
+        <div id="contacto">
+
+        </div>
+    </section> -->
+
+
 </body>
+
 </html>
