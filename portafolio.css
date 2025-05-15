@@ -49,7 +49,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  z-index: 1000;
+  
 }
 
 .menu {
@@ -311,5 +311,63 @@ p {
   margin-bottom: 1rem;
   text-align: left;
 }
+
+/*contacto*/
+#contact-section {
+  padding: 60px 20px;
+  border-radius: 0 0 16px 16px;
+}
+
+.contact-container {
+  background-color:#505B98;
+  border-radius: 16px;
+  padding: 2rem 3rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.contact-text h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.contact-text p {
+  font-size: 1rem;
+  max-width: 400px;
+}
+
+#contact-btn {
+  background: #333769;
+  color: white;
+  border: 2px solid #333769;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#contact-btn:hover {
+  background-color: #bbe7e3;
+  color: #0f1735;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-text p {
+    margin-bottom: 1rem;
+  }
+}
+
 
 
